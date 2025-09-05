@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        EC2_HOST = '13.234.204.193'   // e.g., 3.111.22.33
+        EC2_HOST = '3.108.223.68'   // e.g., 3.111.22.33
         EC2_USER = 'ec2-user'
         WEB_ROOT = '/var/www/html'
     }
